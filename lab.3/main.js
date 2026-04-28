@@ -1204,7 +1204,7 @@ function mapTransactionDescriptions(transactions) {
 
 console.log(getUniqueTransactionTypes(transactions));
 console.log(calculateTotalAmount(transactions));
-console.log(calculateTotalAmountByDate(transactions, 2019, 1));
+console.log(calculateTotalAmountByDate(transactions, 2019, 1,1));
 console.log(getTransactionByType(transactions, "debit"));
 console.log(getTransactionsInDateRange(transactions, "2019-01-01", "2019-01-31"));
 console.log(getTransactionsByMerchant(transactions, "BankXYZ"));
